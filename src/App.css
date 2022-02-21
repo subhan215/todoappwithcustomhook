@@ -1,0 +1,77 @@
+html{
+  background-color: darkkhaki;
+}
+.maindiv{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+ 
+  
+}
+section{
+  background-color: #2F4F4F ;
+  display: flex;
+  flex-direction: column;
+  
+  width: 300px;
+  margin: 0 auto;
+  height: 50vh;
+  border-radius: 5%;
+}
+h1{
+text-align: center;    
+color: whitesmoke;
+background-color:#2F4F4F ;
+}
+.div1{
+ display: flex;
+ justify-content: center;
+ background-color: #2F4F4F;
+}
+.tasks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2F4F4F;
+}
+ul{
+  padding: 0;
+  width: 75%;
+  margin-right: 20px;
+}
+li{
+  background-color: #2F4F4F;
+   margin-top: 4px;
+   margin-bottom: 4px;
+   border-bottom: 2px solid black;
+   padding: 8px;
+   color: white;
+   list-style-type: none;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+ 
+}
+li p{
+  margin: 0;
+}
+
+.editIcon{
+  margin-left: 10px;
+  background-color: transparent ;
+  color: yellow;
+}
+.delIcon{
+color: aqua;
+}
+#input{
+  color: grey;
+  background-color: black;
+  border: 1px solid gray;
+  padding: 7px;
+  border-radius: 5%;
+}
+.div1 button{
+ margin-left: 10px;
+ background-color: darkkhaki;
+}
